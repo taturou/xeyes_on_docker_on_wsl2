@@ -2,6 +2,13 @@
 
 WSL2上のDockerコンテナで動いているxeysを、Windowsで表示する (GUI表示する)
 
+# 準備
+
+1. WindowsにWSL2をインストールする
+1. WSL2に適当なUbuntu 22.04をインストールする
+1. Ubuntu 22.04にDockerをインストールする
+1. Ubuntu 22.04上にこのリポジトリを git clone する
+
 # 使い方
 
 ## コンテナを起動
