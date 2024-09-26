@@ -4,36 +4,41 @@ WSL2上のDockerコンテナで動いているxeysを、Windowsで表示する (
 
 # 使い方
 
-コンテナを起動
+## コンテナを起動
 
 ```sh
 $ ./docker_up.sh
 ```
 
-コンテナのログを表示
+## コンテナのログを表示
 
 ```sh
 $ ./docker_logs.sh
 ```
 
-コンテナを終了
+## コンテナを終了
 
 ```sh
 $ ./docker_down.sh
 ```
 
-xeyesを表示
+## xeyesを表示
 
 ```sh
 $ ./xeyes.sh
 ```
 
-PythonでturtleのScrenを表示する
+## turtleを表示する
 
 ```sh
-$ ./bash.sh
-root@0f29c8375e34:/usr/src# python3 ./screen.py
+$ ./turtle.sh
 ```
+
+* 上キー: 前進
+* 下キー: 後進
+* 右キー: 右回転
+* 左キー: 左回転
+* 画面クリック: 終了
 
 # 参考文献
 
